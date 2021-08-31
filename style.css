@@ -1,0 +1,361 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	max-width: 100%;
+}
+
+header {
+  width: 100%;
+	background-image: url(images/mobile/image-header.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.header-flex {
+	display: flex;
+	
+	width: 100%;
+}
+
+.logo-img {
+	width: 30%;
+	display: block;
+	padding-top: 4%;
+	margin-left: 3%;
+	
+}
+
+.hamburger-container {
+	text-align: right;
+	padding-top: 4%;
+	margin-left: 55%;
+}
+
+.hamburger-container:active {
+	opacity: 0.7;
+}
+
+.header-button {
+	background: transparent;
+	border-width: 0;
+	cursor: pointer;
+}
+
+.header-img {
+	max-width: 100%;
+	display: block;
+}
+
+.menu-container {
+	visibility: hidden;
+	font-family: 'Barlow', sans-serif;
+	color: hsl(232, 10%, 55%);
+	background-color: hsl(0, 0%, 100%);
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5% 0;
+	font-weight: 600;
+	font-size: 1.2rem;
+	position: absolute;
+	top: 20%;
+	bottom: 20%;
+	right: 5%;
+	left: 5%;
+}
+
+.triangle-shape {
+	width: 0;
+  height: 0;
+  border-bottom: 25px solid hsl(0, 0%, 100%);
+  border-left: 25px solid transparent;
+  position: absolute;
+  top: -9.5%;
+  bottom: 0; 
+  right: 0;
+}
+
+.press {
+	visibility: visible;
+	transition: 0.5s easy-in-out;
+}
+
+.menu-container:hover {
+	display: block;
+}
+
+.menu-container p {
+	padding: 5%;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 2rem;
+	height: 25%;
+}
+
+.menu-container p:hover {
+	background: hsl(51, 100%, 49%);
+	color: hsl(212, 27%, 19%);
+	font-family: 'Fraunces', serif;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+h1 {
+	font-family: 'Fraunces', serif;
+	color: hsl(0, 0%, 100%);
+	font-weight: 900;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 10%;
+	font-size: 2.5rem;
+	letter-spacing: 0.5rem;
+}
+
+.arrow-img {
+	width: 8%;
+	padding-bottom: 30%;
+	margin: 0 auto;
+	display: block;
+}
+
+.first-section {
+	padding-bottom: 15%;
+}
+
+.egg-img {
+	width: 100%;
+}
+
+h2 {
+	font-family: 'Fraunces', serif;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	font-size: 1.8rem;
+	width: 80%;
+	margin: 0 auto;
+	font-weight: 900;
+
+}
+
+p {
+	font-family: 'Barlow', sans-serif;
+	color: hsl(232, 10%, 55%);
+	width: 85%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.1rem;
+	padding-bottom: 10%;
+}
+
+.link-container {
+	text-align: center;
+}
+
+.learn-more-1 {
+	border-width: 0 0 8px 0;
+	border-radius: 4rem;
+	border-color: rgba(250, 212, 0, 0.3);
+	border-style: solid;
+	cursor: pointer;
+	font-family: 'Fraunces', serif;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.second-section {
+	padding-bottom: 15%;
+}
+
+.stand-out-img {
+	width: 100%;
+}
+
+.learn-more-2 {
+	border-width: 0 0 8px 0;
+	border-radius: 4rem;
+	border-color: rgba(254, 120, 103, 0.3);
+	text-decoration: none;
+	border-style: solid;
+	cursor: pointer;
+	font-family: 'Fraunces', serif;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 900;
+}
+
+.third-section {
+	background-image: url(images/mobile/image-graphic-design.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.cherry-img {
+	
+}
+
+.cherry-h3 {
+	color: hsl(167, 40%, 24%);
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	text-align: center;
+	padding-top: 100%;
+	font-size: 1.5rem;
+}
+
+.cherry-p {
+	position: relative;
+	color: hsl(167, 40%, 24%);
+	text-align: center;
+	line-height: 1.5rem;
+	padding-top: 10%;
+	padding-bottom: 18%;
+	font-size: 0.9rem;
+
+}
+
+.fourth-section {
+	background-image: url(images/mobile/image-photography.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.orange-h3 {
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	text-align: center;
+	padding-top: 100%;
+	color: hsl(198, 62%, 26%);
+	font-size: 1.5rem;
+}
+
+.orange-p {
+	text-align: center;
+	line-height: 1.5rem;
+	padding-top: 10%;
+	padding-bottom: 18%;
+	color: hsl(198, 62%, 26%);
+	font-size: 0.9rem;
+}
+
+.testimonials-h3 {
+	color: hsl(210, 4%, 67%);
+	font-family: 'Fraunces', serif;
+	text-align: center;
+	padding: 12% 0;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	opacity: 0.9;
+}
+
+.profile-1 {
+	width: 18%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-bottom: 8%;
+}
+
+.profile-2 {
+	width: 18%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-bottom: 8%;
+}
+
+.profile-3 {
+	width: 18%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-bottom: 8%;
+}
+
+.testimonials-p {
+	color: hsl(213, 9%, 39%);
+	line-height: 1.8rem;
+}
+
+.name-para {
+	color: hsl(212, 27%, 19%);
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	padding-bottom: 3%;
+}
+
+.profession-para {
+	color: hsl(210, 4%, 67%);
+	font-size: 0.75rem;
+}
+
+.first-image, .second-image, .third-image, .fourth-image {
+	width: 100%;
+}
+
+.first-image {
+	grid-area: first;
+}
+
+.second-image {
+	grid-area: second;
+}
+
+.third-image {
+	grid-area: third;
+}
+
+.fourth-image {
+	grid-area: fourth;
+}
+
+.bottom-images {
+	display: grid;
+	grid-template-columns: 2;
+	grid-template-rows: 2;
+	grid-template-areas: "first second"
+	"third fourth";
+}
+
+footer {
+	background-color: hsl(168, 34%, 41%);
+}
+
+.logo-footer {
+	display: block;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+
+ul {
+	text-align: center;
+	padding: 10% 0;
+}
+
+ul li {
+	display: inline;
+
+}
+
+ul li a {
+	text-decoration: none;
+	padding-right: 6%;
+	padding-left: 6%;
+}
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+/* To simply change the color of the svg : Go to the svg file and under styles, mention the color in fill. <style>.cls-1{fill:#FFFFFF;}</style>*/
