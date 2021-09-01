@@ -58,14 +58,13 @@ header {
 	width: 85%;
 	margin: 0 auto;
 	text-align: center;
-	padding: 5% 0;
 	font-weight: 600;
 	font-size: 1.2rem;
 	position: absolute;
 	top: 20%;
-	bottom: 20%;
 	right: 5%;
 	left: 5%;
+	padding: 5% 0;
 }
 
 .triangle-shape {
@@ -74,7 +73,7 @@ header {
   border-bottom: 25px solid hsl(0, 0%, 100%);
   border-left: 25px solid transparent;
   position: absolute;
-  top: -9.5%;
+  top: -7%;
   bottom: 0; 
   right: 0;
 }
@@ -89,11 +88,26 @@ header {
 }
 
 .menu-container p {
-	padding: 5%;
-	width: 50%;
+	max-width: 45%;
 	margin: 0 auto;
 	border-radius: 2rem;
-	height: 25%;
+	
+}
+
+.first-p {
+	padding: 5% 0;
+}
+
+.second-p {
+	padding: 5% 0;
+}
+
+.third-p {
+	padding: 5% 0;
+}
+
+.fourth-p {
+	padding: 5% 0;
 }
 
 .menu-container p:hover {
@@ -325,7 +339,7 @@ p {
 }
 
 footer {
-	background-color: hsl(168, 34%, 41%);
+	background-color: hsl(167, 40%, 24%);
 }
 
 .logo-footer {
@@ -337,25 +351,45 @@ footer {
 ul {
 	text-align: center;
 	padding: 10% 0;
+	width: 100%;
 }
 
 ul li {
 	display: inline;
-
 }
 
 ul li a {
 	text-decoration: none;
-	padding-right: 6%;
-	padding-left: 6%;
+	padding-right: 8%;
+	padding-left: 8%;
+	color: hsl(168, 34%, 41%);
+	font-family: 'Barlow', sans-serif;
+}
+
+.footer-socials {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.footer-socials li {
+
+}
+
+.footer-socials li a {
+	padding: 0 5%;
 }
 
 .attribution { 
-	font-size: 11px; text-align: center; 
+	font-size: 11px; text-align: center;
+	color: hsl(212, 27%, 19%); 
+	font-family: 'Barlow', sans-serif;
+	padding-bottom: 5%;
+	padding-top: 10%;
 }
     
 .attribution a { 
-	color: hsl(228, 45%, 44%); 
+	color: hsl(168, 34%, 41%); 
+	text-decoration: none;
 }
 
 /* To simply change the color of the svg : Go to the svg file and under styles, mention the color in fill. <style>.cls-1{fill:#FFFFFF;}</style>*/
